@@ -1,8 +1,9 @@
 console.log('-- JS --')
 
 const titles = document.getElementsByTagName('h2')// psevdomassive
+const subTitles = document.getElementsByClassName('sub-title')
 
-
+console.log(subTitles)
 for(let i = 0; i < titles.length; i++) {
   console.log(titles[i]);
 }
